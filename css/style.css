@@ -1965,6 +1965,54 @@ footer .widget ul li {
     line-height: 38px;
     margin-bottom: 10px;
 }
+/*edits*/
+
+.ftco-about {
+    position: relative;
+    z-index: 0; }
+    @media (max-width: 1199.98px) {
+      .ftco-about {
+        background-position: center center !important; } }
+    .ftco-about:after {
+      content: '';
+      -ms-transform: skewX(-40deg);
+      transform: skewX(-40deg);
+      -webkit-transform: skewX(-40deg);
+      background: #207dff;
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      right: -1000%;
+      z-index: 0;
+      opacity: .8;
+      z-index: -1; }
+    .ftco-about:before {
+      content: '';
+      -ms-transform: skewX(-40deg);
+      transform: skewX(-40deg);
+      -webkit-transform: skewX(-40deg);
+      background: #00bd56;
+      position: absolute;
+      right: 50%;
+      top: 0;
+      bottom: 0;
+      left: -1000%;
+      z-index: 0;
+      opacity: .8; }
+    .ftco-about .img {
+      display: block;
+      width: 100%;
+      position: relative;
+      webkit-box-shadow: -25px -25px 41px -38px rgba(0, 0, 0, 0.59);
+      -moz-box-shadow: -25px -25px 41px -38px rgba(0, 0, 0, 0.59);
+      -webkit-box-shadow: -25px -25px 41px -38px rgba(0, 0, 0, 0.59);
+      box-shadow: -25px -25px 41px -38px rgba(0, 0, 0, 0.59); }
+      @media (min-width: 1200px) {
+        .ftco-about .img {
+          margin: -30px 0; } }
+
+          /*edits */
 .contact-info > li span {
     background: none repeat scroll 0 0 black;
     float: left;
