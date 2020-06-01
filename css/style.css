@@ -1909,6 +1909,7 @@ footer {
 }
 footer .title{
     background: url("../images/title-design2.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    margin-top: 25px;
 }
 footer .title > span, footer .title > h2, footer .title > p {
     color: #fff;
