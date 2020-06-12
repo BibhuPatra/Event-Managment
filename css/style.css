@@ -1239,6 +1239,8 @@ canvas {
 .button {
     font-size: 13px;
     font-weight: 600;
+    width: 350px;
+    text-align: center;
 }
 /* =============== Upcoming Event ===================== */
 .upcoming-event-page.remove-ext,
