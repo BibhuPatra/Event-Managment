@@ -4443,7 +4443,7 @@ header.sticky {
     position: fixed;
 }
 header .logo img{
-    max-width: 300px;
+    max-width: 200px;
     -webkit-transition:all 0.3s linear;
     -moz-transition:all 0.3s linear;
     -ms-transition:all 0.3s linear;
